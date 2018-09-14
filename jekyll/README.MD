@@ -1,0 +1,4 @@
+利用docker搭建octopress环境
+将本地的博客文件目录挂载到docker中，并且将docker的端口号映射出来。
+这样就能够在本地编辑文本文件，用docker中的octopress编译、预览和发布博客。
+
