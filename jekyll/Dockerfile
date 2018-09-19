@@ -7,3 +7,6 @@ RUN apk update && \
     apk upgrade && \
     apk add openssh curl git
 COPY .ssh /root/.ssh
+RUN  git config --global user.email "windcao@hotmail.com"
+RUN  git config --global user.name "caojianfeng"
+

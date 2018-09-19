@@ -1,5 +1,5 @@
-LOCAL_PATH=/Users/caojianfeng/Documents/blog/caojianfeng_blog
-REMOTE_PATH=/blog/caojianfeng
+LOCAL_PATH=/Users/caojianfeng/Documents/blog/blogs
+REMOTE_PATH=/blogs
 CONTAINER_NAME=blog_builder
 EXIST_CONTAINER=`docker ps -a|grep $CONTAINER_NAME`;
 echo $EXIST_CONTAINER;
